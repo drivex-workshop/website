@@ -1,0 +1,19 @@
+Image and logo sources (download date in repo history)
+
+1) UCLA Mobility Lab (mobility-lab.seas.ucla.edu)
+   - logos/ucla-mobility-lab.png — blue-bar lockup (white UCLA box + “Mobility Lab” on UCLA blue), 549×92 RGB PNG; site asset supplied for DriveX pages (replaces earlier 487×80 wordmark from research.seas.ucla.edu/mobility-lab/files/2019/08/ucla-mobility-lab-logo.png)
+   - photos/leadership-jiaqi-ma.jpg — people page portrait (480px derivative)
+   - photos/leadership-zhiyu-huang.jpg — people page portrait (300px derivative)
+   - photos/leadership-walter-zimmer.jpeg — people page portrait (480px derivative)
+   - photos/leadership-rui-song.jpg — people page portrait (480px derivative)
+
+2) Wikimedia Commons (downloaded but currently NOT used on the site)
+   - logos/ucla-campus.svg — "The University of California UCLA" wordmark; trademark may apply. File: The_University_of_California_UCLA.svg
+   - logos/nsf.png — National Science Foundation logo; follow NSF identity rules for public use.
+
+   These were retrieved while exploring sponsor/lead logo options. The site currently
+   shows the UCLA Mobility Lab mark only (in a UCLA-blue badge) for lead identity, and
+   uses neutral placeholder tiles elsewhere until communications offices supply approved
+   artwork. Keep these files in repo or delete as your compliance review prefers.
+
+Use of UCLA marks should follow https://brand.ucla.edu/ for non-lab contexts. Replace or remove assets if your communications office requires different artwork.

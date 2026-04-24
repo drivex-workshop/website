@@ -115,11 +115,9 @@ a:hover {
 }
 
 .brand-logo {
-  width: 40px;
-  height: 40px;
+  width: 150px;
+  height: 150px;
   flex-shrink: 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(12, 17, 24, 0.08);
 }
 
 .brand-text {
@@ -1283,7 +1281,7 @@ textarea {
 }
 
 .logo-strip img {
-  height: 44px;
+  height: 100px;
   width: auto;
   max-width: 200px;
   object-fit: contain;
@@ -1555,7 +1553,7 @@ textarea {
 }
 
 .footer-logo-row img {
-  height: 36px;
+  height: 100px;
   width: auto;
   opacity: 0.88;
 }

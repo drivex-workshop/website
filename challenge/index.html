@@ -16,7 +16,6 @@
     <div class="header-inner">
       <a class="brand" href="../">
         <img class="brand-logo" src="../images/logos/logo_tiny.png" alt="" width="40" height="40" decoding="async" />
-        </span>
       </a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <label for="nav-toggle" class="nav-toggle-label">Menu</label>
@@ -126,48 +125,89 @@
           <p class="section-kicker">Tracks</p>
           <h2>Challenge tracks</h2>
         </div>
-        <p class="lead" style="max-width:44rem">The following tracks are part of the DriveX Grand Challenge 2026. Each track is organized by contributing teams and collaborators while remaining part of the broader DriveX challenge framework.</p>
+        <p class="lead" style="max-width:44rem">The following tracks are part of the DriveX Grand Challenge 2026. Each card opens the official challenge or benchmark site in a new tab; the DriveX overview link stays on this website.</p>
+        <p class="prose" style="max-width:48rem;font-size:0.95rem;color:var(--color-text-muted)">Preview images use a placeholder until you drop screenshots under <code>images/captures/</code> (same basename as suggested in each card’s <code>alt</code> text is optional).</p>
 
         <div class="track-category">
           <h3>Cooperative and multimodal perception</h3>
-          <div class="track-list">
-            <div class="track-card">
-              <h4>TUMTraf-V2X Track</h4>
-              <p>Cooperative perception using onboard vehicle sensor data and roadside infrastructure data in complex urban environments.</p>
-              <a href="tumtraf-v2x/">Learn more →</a>
-            </div>
-            <div class="track-card">
-              <h4>MDrive Track</h4>
-              <p>Multimodal driving perception and scene understanding through the integration of multiple sensor modalities.</p>
-              <a href="mdrive/">Learn more →</a>
-            </div>
+          <div class="ext-program-grid ext-program-grid--3">
+            <article class="ext-program-card ext-program-card--track">
+              <a class="ext-program-card__media" href="https://www.codabench.org/competitions/14044/" target="_blank" rel="noopener">
+                <img src="../images/captures/placeholder.svg" width="960" height="540" alt="TUMTraf-V2X challenge preview" loading="lazy" decoding="async" />
+              </a>
+              <div class="ext-program-card__body">
+                <h3>TUMTraf-V2X Track</h3>
+                <p class="ext-program-card__meta">Cooperative perception using onboard vehicle sensor data and roadside infrastructure data in complex urban environments.</p>
+                <div class="ext-program-card__actions">
+                  <a class="btn-external" href="https://www.codabench.org/competitions/14044/" target="_blank" rel="noopener">Open official challenge site</a>
+                  <a class="link-subtle" href="tumtraf-v2x/">DriveX overview →</a>
+                </div>
+              </div>
+            </article>
+            <article class="ext-program-card ext-program-card--track">
+              <a class="ext-program-card__media" href="https://mdrive-challenge.github.io/" target="_blank" rel="noopener">
+                <img src="../images/captures/placeholder.svg" width="960" height="540" alt="MDrive challenge preview" loading="lazy" decoding="async" />
+              </a>
+              <div class="ext-program-card__body">
+                <h3>MDrive Track</h3>
+                <p class="ext-program-card__meta">Multimodal driving perception and cooperative multi-agent driving benchmarks.</p>
+                <div class="ext-program-card__actions">
+                  <a class="btn-external" href="https://mdrive-challenge.github.io/" target="_blank" rel="noopener">Open official challenge site</a>
+                  <a class="link-subtle" href="mdrive/">DriveX overview →</a>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
 
         <div class="track-category">
           <h3>Robustness, generalization, and heterogeneity</h3>
-          <div class="track-list">
-            <div class="track-card">
-              <h4>doScenes Track</h4>
-              <p>Domain generalization for driving scenes, encouraging models that perform robustly across diverse environments and conditions.</p>
-              <a href="doscenes/">Learn more →</a>
-            </div>
-            <div class="track-card">
-              <h4>HetroD Track</h4>
-              <p>Heterogeneous driving datasets and cross-domain learning to improve robustness, transferability, and generalization.</p>
-              <a href="hetrod/">Learn more →</a>
-            </div>
+          <div class="ext-program-grid ext-program-grid--3">
+            <article class="ext-program-card ext-program-card--track">
+              <a class="ext-program-card__media" href="https://mi3-lab.github.io/doScenes_challenge" target="_blank" rel="noopener">
+                <img src="../images/captures/placeholder.svg" width="960" height="540" alt="doScenes challenge preview" loading="lazy" decoding="async" />
+              </a>
+              <div class="ext-program-card__body">
+                <h3>doScenes Track</h3>
+                <p class="ext-program-card__meta">Natural language instruction, vision-language navigation, and domain generalization for driving scenes.</p>
+                <div class="ext-program-card__actions">
+                  <a class="btn-external" href="https://mi3-lab.github.io/doScenes_challenge" target="_blank" rel="noopener">Open official challenge site</a>
+                  <a class="link-subtle" href="doscenes/">DriveX overview →</a>
+                </div>
+              </div>
+            </article>
+            <article class="ext-program-card ext-program-card--track">
+              <a class="ext-program-card__media" href="https://hetroddata.github.io/HetroD/" target="_blank" rel="noopener">
+                <img src="../images/captures/placeholder.svg" width="960" height="540" alt="HetroD benchmark preview" loading="lazy" decoding="async" />
+              </a>
+              <div class="ext-program-card__body">
+                <h3>HetroD Track</h3>
+                <p class="ext-program-card__meta">Heterogeneous traffic and high-fidelity drone-captured data for robustness and generalization.</p>
+                <div class="ext-program-card__actions">
+                  <a class="btn-external" href="https://hetroddata.github.io/HetroD/" target="_blank" rel="noopener">Open official project site</a>
+                  <a class="link-subtle" href="hetrod/">DriveX overview →</a>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
 
         <div class="track-category">
           <h3>Reasoning and high-level scene intelligence</h3>
-          <div class="track-list">
-            <div class="track-card">
-              <h4>Reasoning Track</h4>
-              <p>Reasoning and high-level scene understanding for autonomous driving and intelligent transportation systems.</p>
-              <a href="reasoning/">Learn more →</a>
-            </div>
+          <div class="ext-program-grid ext-program-grid--3">
+            <article class="ext-program-card ext-program-card--track">
+              <a class="ext-program-card__media" href="https://drivex-workshop.github.io/cvpr2026/" target="_blank" rel="noopener">
+                <img src="../images/captures/placeholder.svg" width="960" height="540" alt="Reasoning track preview" loading="lazy" decoding="async" />
+              </a>
+              <div class="ext-program-card__body">
+                <h3>Reasoning Track</h3>
+                <p class="ext-program-card__meta">Reasoning and high-level scene intelligence; detailed materials are coordinated with the DriveX @ CVPR 2026 program hub until a dedicated track page is published.</p>
+                <div class="ext-program-card__actions">
+                  <a class="btn-external" href="https://drivex-workshop.github.io/cvpr2026/" target="_blank" rel="noopener">Open DriveX CVPR 2026 hub</a>
+                  <a class="link-subtle" href="reasoning/">DriveX overview →</a>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </div>

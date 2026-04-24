@@ -17,3 +17,7 @@ Image and logo sources (download date in repo history)
    artwork. Keep these files in repo or delete as your compliance review prefers.
 
 Use of UCLA marks should follow https://brand.ucla.edu/ for non-lab contexts. Replace or remove assets if your communications office requires different artwork.
+
+3) Workshop / challenge preview captures
+   - captures/placeholder.svg — still used on Grand Challenge cards where no city image is assigned.
+   - workshops/index.html and per-edition workshop pages use host-city landscape JPEGs from Wikimedia Commons (upload.wikimedia.org) for edition previews; retain Commons attribution/licensing if you replace or mirror files locally.

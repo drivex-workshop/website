@@ -12,7 +12,7 @@
   <title>DriveX | UCLA-led initiative for physical AI and intelligent transportation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="icon" href="images/logos/logo_tiny.png" type="image/svg+xml" />
 </head>
@@ -39,49 +39,56 @@
           <li><a href="contact/">Contact</a></li>
         </ul>
       </nav>
-      <a href="https://mobility-lab.seas.ucla.edu/">
-        <img src="images/logos/ucla-mobility-lab.png" height="150" decoding="async" />
+      <a class="header-lab-lockup" href="https://mobility-lab.seas.ucla.edu/" aria-label="UCLA Mobility Lab">
+        <img class="header-lab-logo" src="images/logos/ucla-mobility-lab.png" width="200" height="34" decoding="async" alt="UCLA Mobility Lab" />
       </a>
     </div>
   </header>
 
   <section class="hero">
+    <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
     <div class="hero-inner">
       <div class="hero-grid">
         <div class="hero-main">
-          <p class="hero-eyebrow">Open research · benchmarks · community</p>
-           <img src="images/logos/logo_big.png" width="500" height="500" decoding="async" />
-          <p class="hero-lead">A UCLA Mobility Lab initiative advancing physical AI and intelligent transportation through open research programs.</p>
-          <p class="hero-lead" style="font-size:1.05rem;opacity:.9">Engage through workshops and tutorials, benchmark tracks in the Grand Challenge, shared datasets and tooling, and seminar programs on autonomy, world models, and deployment-ready AI.</p>
+          <p class="hero-eyebrow"><span aria-hidden="true">DRIVEX // 2026 — LIVE</span></p>
+          <img class="hero-logo-mark" src="images/logos/logo_big.png" width="500" height="500" decoding="async" alt="DriveX" />
+          <h1 class="hero-title">A public platform for <span class="accent">physical AI</span> in mobility.</h1>
+          <p class="hero-lead">DriveX is a UCLA Mobility Lab initiative bringing together workshops and tutorials, benchmark challenges, shared research assets, and seminars for the global intelligent transportation community.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="about/">About DriveX</a>
             <a class="btn btn-ghost" href="workshops/">Workshops &amp; tutorials</a>
             <a class="btn btn-ghost" href="challenge/">Grand Challenge</a>
-            <a class="btn btn-ghost" href="assets/">Research Assets</a>
-            <a class="btn btn-ghost" href="seminars/">Seminars</a>
           </div>
         </div>
         <aside class="hero-aside" aria-label="Initiative snapshot">
-          <div class="hero-glass">
-            <p class="hero-glass-title">At a glance</p>
-            <div class="hero-metrics">
-              <div class="hero-metric">
-                <span class="hero-metric-label">Flagship cycle</span>
-                <span class="hero-metric-value">2026–27</span>
+          <div class="hero-panel">
+            <p class="hero-panel-title"><span class="hero-panel-dot" aria-hidden="true"></span>At a glance</p>
+            <dl class="hero-panel-grid">
+              <div>
+                <dt>Cycle</dt>
+                <dd>2026<span class="dim">–</span>27</dd>
               </div>
-              <div class="hero-metric">
-                <span class="hero-metric-label">Lead institution</span>
-                <span class="hero-metric-value">UCLA</span>
+              <div>
+                <dt>Anchor</dt>
+                <dd>UCLA</dd>
               </div>
-            </div>
+              <div>
+                <dt>Programs</dt>
+                <dd>04</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd><span class="hero-panel-live"><span class="hero-panel-livedot" aria-hidden="true"></span>Active</span></dd>
+              </div>
+            </dl>
           </div>
-          <div class="hero-glass">
-            <p class="hero-glass-title">Explore</p>
-            <ul class="hero-pillar-list">
-              <li>Workshops &amp; tutorials</li>
-              <li>Grand Challenge &amp; benchmarks</li>
-              <li>Research assets &amp; tooling</li>
-              <li>Seminars &amp; strategic dialogues</li>
+          <div class="hero-panel">
+            <p class="hero-panel-title"><span class="hero-panel-dot" aria-hidden="true"></span>Programs</p>
+            <ul class="hero-panel-list">
+              <li><a href="workshops/"><span class="hero-panel-idx">01</span><span class="hero-panel-name">Workshops &amp; tutorials</span><span class="hero-panel-arrow" aria-hidden="true">→</span></a></li>
+              <li><a href="challenge/"><span class="hero-panel-idx">02</span><span class="hero-panel-name">Grand Challenge</span><span class="hero-panel-arrow" aria-hidden="true">→</span></a></li>
+              <li><a href="assets/"><span class="hero-panel-idx">03</span><span class="hero-panel-name">Research assets</span><span class="hero-panel-arrow" aria-hidden="true">→</span></a></li>
+              <li><a href="seminars/"><span class="hero-panel-idx">04</span><span class="hero-panel-name">Seminars</span><span class="hero-panel-arrow" aria-hidden="true">→</span></a></li>
             </ul>
           </div>
         </aside>
@@ -89,68 +96,106 @@
     </div>
   </section>
 
-  <section class="spotlight-band" aria-labelledby="spotlight-heading">
-    <div class="spotlight-inner">
-      <div class="spotlight-band-head">
-        <p class="spotlight-band-kicker" id="spotlight-heading">Highlights</p>
-        <p class="spotlight-band-sub">Key programs and participation entry points across the DriveX ecosystem.</p>
+  <section class="dx-stats" aria-label="DriveX at a glance">
+    <div class="section-inner">
+      <ol class="dx-stats-row">
+        <li>
+          <span class="dx-stats-key">Editions</span>
+          <span class="dx-stats-val" data-counter data-target="08" data-suffix="+">00</span>
+          <span class="dx-stats-meta">Workshops &amp; tutorials</span>
+        </li>
+        <li>
+          <span class="dx-stats-key">Venues</span>
+          <span class="dx-stats-val" data-counter data-target="05">00</span>
+          <span class="dx-stats-meta">CVPR · ICCV · ECCV · IV · ITSC</span>
+        </li>
+        <li>
+          <span class="dx-stats-key">Tracks</span>
+          <span class="dx-stats-val" data-counter data-target="04">00</span>
+          <span class="dx-stats-meta">Grand Challenge 2026</span>
+        </li>
+        <li>
+          <span class="dx-stats-key">Datasets</span>
+          <span class="dx-stats-val" data-counter data-target="03" data-suffix="+">00</span>
+          <span class="dx-stats-meta">Public research assets</span>
+        </li>
+        <li>
+          <span class="dx-stats-key">Cycle</span>
+          <span class="dx-stats-val">26<span class="dim">–</span>27</span>
+          <span class="dx-stats-meta">Multi-year program</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="dx-venues" aria-label="Conference venues featuring DriveX">
+    <div class="section-inner">
+      <p class="dx-venues-label"><span aria-hidden="true">— FEATURED AT</span></p>
+      <div class="dx-venues-marquee" data-marquee>
+        <ul class="dx-venues-track">
+          <li>CVPR <span>2025</span></li>
+          <li>ICCV <span>2025</span></li>
+          <li>ITSC <span>2025</span></li>
+          <li>CVPR <span>2026</span></li>
+          <li>ECCV <span>2026</span></li>
+          <li>IV <span>2026</span></li>
+          <li>ITSC <span>2026</span></li>
+          <li>CVPR <span>2025</span></li>
+          <li>ICCV <span>2025</span></li>
+          <li>ITSC <span>2025</span></li>
+          <li>CVPR <span>2026</span></li>
+          <li>ECCV <span>2026</span></li>
+          <li>IV <span>2026</span></li>
+          <li>ITSC <span>2026</span></li>
+        </ul>
       </div>
-      <div
-        class="spotlight-carousel"
-        data-spotlight-carousel
-      >
-        <div
-          class="spotlight-viewport"
-          data-spotlight-viewport
-          role="region"
-          aria-roledescription="carousel"
-          aria-label="DriveX program highlights"
-          tabindex="0"
-        >
-          <div class="spotlight-track" data-spotlight-track>
-            <article class="spotlight-slide" aria-roledescription="slide">
-              <p class="spotlight-slide-kicker">Workshops &amp; tutorials</p>
-              <h3 class="spotlight-slide-title"><a href="workshops/">Cross-venue series</a></h3>
-              <p class="spotlight-slide-desc">CVPR, ICCV/ECCV, IV, ITSC, and aligned tutorials—one Mobility Lab thread across flagship themes.</p>
-            </article>
-            <article class="spotlight-slide" aria-roledescription="slide">
-              <p class="spotlight-slide-kicker">Grand Challenge</p>
-              <h3 class="spotlight-slide-title"><a href="challenge/">Benchmark tracks 2026</a></h3>
-              <p class="spotlight-slide-desc">Reasoning, multimodal perception, cooperation, robustness, and deployment-facing autonomy in one program.</p>
-            </article>
-            <article class="spotlight-slide" aria-roledescription="slide">
-              <p class="spotlight-slide-kicker">Research assets</p>
-              <h3 class="spotlight-slide-title"><a href="assets/">Datasets &amp; tooling</a></h3>
-              <p class="spotlight-slide-desc">Downloads, baselines, and challenge kits meant to be reused, cited, and extended by the community.</p>
-            </article>
-            <article class="spotlight-slide" aria-roledescription="slide">
-              <p class="spotlight-slide-kicker">Seminars</p>
-              <h3 class="spotlight-slide-title"><a href="seminars/">Mobility seminar line</a></h3>
-              <p class="spotlight-slide-desc">Invited talks and dialogues connecting students, faculty, and partners around physical AI for the road.</p>
-            </article>
-          </div>
-        </div>
-        <div class="spotlight-controls">
-          <button type="button" class="spotlight-nav-btn" data-spotlight-prev aria-label="Previous highlight">
-            <span aria-hidden="true">‹</span>
-          </button>
-          <div class="spotlight-dots" data-spotlight-dots role="tablist" aria-label="Slide picker">
-            <button type="button" data-index="0" aria-label="Slide 1" aria-selected="true"></button>
-            <button type="button" data-index="1" aria-label="Slide 2" aria-selected="false"></button>
-            <button type="button" data-index="2" aria-label="Slide 3" aria-selected="false"></button>
-            <button type="button" data-index="3" aria-label="Slide 4" aria-selected="false"></button>
-          </div>
-          <button type="button" class="spotlight-nav-btn" data-spotlight-next aria-label="Next highlight">
-            <span aria-hidden="true">›</span>
-          </button>
-        </div>
+    </div>
+  </section>
+
+  <section class="spotlight-band" aria-labelledby="spotlight-heading">
+    <div class="section-inner">
+      <div class="spotlight-head">
+        <p class="section-kicker" id="spotlight-heading">Highlights</p>
+        <h2 class="spotlight-title">Key programs and entry points</h2>
+        <p class="spotlight-sub">A snapshot of the four pillars driving the DriveX 2026–27 cycle, each with its own dedicated program page.</p>
+      </div>
+      <div class="spotlight-grid">
+        <a class="spotlight-card" href="workshops/">
+          <span class="spotlight-card-idx">01</span>
+          <span class="spotlight-card-kicker">Workshops &amp; tutorials</span>
+          <span class="spotlight-card-title">Cross-venue series</span>
+          <span class="spotlight-card-desc">CVPR, ICCV/ECCV, IV, ITSC, and aligned tutorials — one Mobility Lab thread across flagship themes.</span>
+          <span class="spotlight-card-cta">Open programs hub <span aria-hidden="true">→</span></span>
+        </a>
+        <a class="spotlight-card" href="challenge/">
+          <span class="spotlight-card-idx">02</span>
+          <span class="spotlight-card-kicker">Grand Challenge</span>
+          <span class="spotlight-card-title">Benchmark tracks 2026</span>
+          <span class="spotlight-card-desc">Reasoning, multimodal perception, cooperation, robustness, and deployment-facing autonomy in one program.</span>
+          <span class="spotlight-card-cta">Browse tracks <span aria-hidden="true">→</span></span>
+        </a>
+        <a class="spotlight-card" href="assets/">
+          <span class="spotlight-card-idx">03</span>
+          <span class="spotlight-card-kicker">Research assets</span>
+          <span class="spotlight-card-title">Datasets &amp; tooling</span>
+          <span class="spotlight-card-desc">Downloads, baselines, and challenge kits meant to be reused, cited, and extended by the community.</span>
+          <span class="spotlight-card-cta">Browse assets <span aria-hidden="true">→</span></span>
+        </a>
+        <a class="spotlight-card" href="seminars/">
+          <span class="spotlight-card-idx">04</span>
+          <span class="spotlight-card-kicker">Seminars</span>
+          <span class="spotlight-card-title">Mobility seminar line</span>
+          <span class="spotlight-card-desc">Invited talks and dialogues connecting students, faculty, and partners around physical AI for the road.</span>
+          <span class="spotlight-card-cta">Seminar series <span aria-hidden="true">→</span></span>
+        </a>
       </div>
     </div>
   </section>
 
   <section class="section-band">
     <div class="section-inner">
-      <p><strong>2026–2027 focus:</strong> reasoning-centric autonomy · world models &amp; 3D/4D scene intelligence · cooperative physical AI for the real world—the themes tying together our workshops, challenges, and releases this cycle.</p>
+      <p class="section-band-eyebrow"><span aria-hidden="true">FLAGSHIP THEMES // 2026 — 2027</span></p>
+      <p>Reasoning-centric autonomy · world models &amp; 3D/4D scene intelligence · cooperative physical AI for the real world — the threads tying together our workshops, challenges, and releases this cycle.</p>
     </div>
   </section>
 
@@ -227,15 +272,64 @@
     <section class="section section-muted">
       <div class="section-inner">
         <div class="section-head">
-          <p class="section-kicker">Momentum</p>
-          <h2>Current highlights</h2>
+          <p class="section-kicker">On the calendar</p>
+          <h2>What's next in the cycle</h2>
         </div>
-        <ul class="highlights">
-          <li>Upcoming DriveX Workshop Series editions and aligned tutorials (e.g., DriveX@CVPR'26, DriveX@ECCV'26, DriveX@IV'26, and related venues)</li>
-          <li>The DriveX Grand Challenge 2026 — benchmark tracks across perception, robustness, and reasoning</li>
-          <li>Featured seminars through the UCLA Mobility Seminar Series, presented within the broader DriveX ecosystem</li>
-          <li>New datasets, benchmark resources, and related research releases via DriveX Research Assets</li>
-        </ul>
+        <p class="lead" style="max-width:42rem;margin-bottom:1.6rem">A rolling view of the upcoming DriveX moments — workshops, challenge milestones, and seminars — across the 2026–27 program.</p>
+        <ol class="dx-calendar">
+          <li class="dx-event dx-event--upcoming">
+            <div class="dx-event-date">
+              <span class="dx-event-month">Jun</span>
+              <span class="dx-event-day">14</span>
+              <span class="dx-event-year">2026</span>
+            </div>
+            <div class="dx-event-body">
+              <p class="dx-event-kind">Workshop</p>
+              <h3 class="dx-event-title"><a href="workshops/cvpr2026/">DriveX @ CVPR 2026</a></h3>
+              <p class="dx-event-meta">Nashville, TN · Reasoning-centric autonomy · Cooperative physical AI</p>
+            </div>
+            <span class="dx-event-status">Open · CFP active</span>
+          </li>
+          <li class="dx-event">
+            <div class="dx-event-date">
+              <span class="dx-event-month">Jun</span>
+              <span class="dx-event-day">22</span>
+              <span class="dx-event-year">2026</span>
+            </div>
+            <div class="dx-event-body">
+              <p class="dx-event-kind">Challenge</p>
+              <h3 class="dx-event-title"><a href="challenge/">DriveX Grand Challenge 2026</a></h3>
+              <p class="dx-event-meta">04 benchmark tracks · Reasoning · Multimodal · Cooperation · Robustness</p>
+            </div>
+            <span class="dx-event-status">Submissions open</span>
+          </li>
+          <li class="dx-event">
+            <div class="dx-event-date">
+              <span class="dx-event-month">Sep</span>
+              <span class="dx-event-day">28</span>
+              <span class="dx-event-year">2026</span>
+            </div>
+            <div class="dx-event-body">
+              <p class="dx-event-kind">Workshop</p>
+              <h3 class="dx-event-title"><a href="workshops/eccv2026/">DriveX @ ECCV 2026</a></h3>
+              <p class="dx-event-meta">Malmö, SE · World models &amp; 3D/4D scene intelligence</p>
+            </div>
+            <span class="dx-event-status">CFP soon</span>
+          </li>
+          <li class="dx-event">
+            <div class="dx-event-date">
+              <span class="dx-event-month">Oct</span>
+              <span class="dx-event-day">10</span>
+              <span class="dx-event-year">2026</span>
+            </div>
+            <div class="dx-event-body">
+              <p class="dx-event-kind">Tutorial</p>
+              <h3 class="dx-event-title"><a href="workshops/tutorials/iccv2025/">DriveX Tutorial @ ICCV 2025</a></h3>
+              <p class="dx-event-meta">Honolulu, HI · Foundations of physical AI for mobility</p>
+            </div>
+            <span class="dx-event-status">Schedule live</span>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -277,7 +371,7 @@
           </div>
           <img src="images/logos/ucla-mobility-lab.png" alt="UCLA Mobility Lab" />
           <div class="footer-brand">DriveX</div>
-          <p style="color:#94a3b8;max-width:28rem;margin:0;line-height:1.55;font-size:0.92rem">Workshops · Grand Challenge · Research assets · Seminars</p>
+          <p class="footer-program-line">Workshops · Grand Challenge · Research assets · Seminars</p>
           <p class="footer-attribution">DriveX is a UCLA-led initiative for physical AI, cooperative autonomy, and intelligent transportation, developed with partner institutions and collaborators across research and practice.</p>
         </div>
         <div class="footer-links">

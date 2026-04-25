@@ -118,6 +118,28 @@ a:hover {
   gap: var(--space-md);
 }
 
+.header-brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  min-height: 76px;
+}
+
+.header-brand-lockup .brand-logo {
+  height: 68px;
+  width: auto;
+  max-height: 68px;
+  max-width: 68px;
+}
+
+.header-brand-lockup .header-lab-logo {
+  height: 68px;
+  width: auto;
+  max-height: 68px;
+  max-width: min(286px, 42vw);
+}
+
 .brand {
   display: flex;
   flex-direction: row;
@@ -140,7 +162,9 @@ a:hover {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  margin-left: auto;
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 1px solid var(--color-border);
   text-decoration: none;
   opacity: 0.92;
   transition: opacity 0.15s ease;

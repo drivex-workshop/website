@@ -130,8 +130,8 @@ a:hover {
 .brand-logo {
   width: auto;
   height: auto;
-  max-height: 44px;
-  max-width: 160px;
+  max-height: 150px;
+  max-width: 150px;
   flex-shrink: 0;
   object-fit: contain;
 }
@@ -639,7 +639,7 @@ a:hover {
 .hero-logo-mark {
   display: block;
   width: auto;
-  max-width: min(180px, 40vw);
+  max-width: min(300px, 40vw);
   height: auto;
   margin: 0 0 var(--space-md);
   opacity: 1;
@@ -1656,10 +1656,6 @@ textarea {
   margin-bottom: 0.85rem;
 }
 
-.footer-logo-row img:first-child {
-  filter: invert(1) brightness(0.18);
-}
-
 /* Page hero (inner pages — quiet header) */
 .page-hero {
   background:
@@ -2372,9 +2368,8 @@ a.btn-external:hover::after {
 }
 
 .footer-logo-row img {
-  height: 40px;
+  height: 100px;
   width: auto;
-  opacity: 0.9;
 }
 
 .prose .section-head {

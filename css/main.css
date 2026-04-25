@@ -350,8 +350,30 @@ a:hover {
     padding: 0.6rem 0.5rem;
   }
 
-  .header-lab-lockup {
+  .header-inner > .header-lab-lockup {
     display: none;
+  }
+
+  .header-brand-lockup {
+    gap: 0.65rem;
+    min-height: 52px;
+  }
+
+  .header-brand-lockup .brand-logo {
+    height: 48px;
+    max-height: 48px;
+    max-width: 48px;
+  }
+
+  .header-brand-lockup .header-lab-lockup {
+    display: flex;
+    padding-left: 0.65rem;
+  }
+
+  .header-brand-lockup .header-lab-logo {
+    height: 42px;
+    max-height: 42px;
+    max-width: min(168px, 48vw);
   }
 }
 

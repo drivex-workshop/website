@@ -7,6 +7,8 @@ Image and logo sources (download date in repo history)
    - photos/people-walter-zimmer.jpeg — people page portrait (480px derivative)
    - photos/people-rui-song.jpg — people page portrait (480px derivative)
    - photos/people-ross-greer.jpg — people page portrait (256px), mirrored from drivex-workshop.github.io/cvpr2026/static/img/ross_greer.jpg
+   - photos/speaker-cathy-wu.jpg — seminar speaker portrait (533x609), mirrored from wucathy.com/assets/images/profile.jpg
+   - projects/cp-x-concept.png — CP-X cooperative perception key concept diagram (1024x687), mirrored from mobility-lab-cpx.webflow.io
 
 2) Wikimedia Commons (downloaded but currently NOT used on the site)
    - logos/ucla-campus.svg — "The University of California UCLA" wordmark; trademark may apply. File: The_University_of_California_UCLA.svg

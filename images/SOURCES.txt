@@ -2,10 +2,11 @@ Image and logo sources (download date in repo history)
 
 1) UCLA Mobility Lab (mobility-lab.seas.ucla.edu)
    - logos/ucla-mobility-lab.png — blue-bar lockup (white UCLA box + “Mobility Lab” on UCLA blue), 358×90 RGB PNG in repo; displayed as-is without extra wrapper decoration or CSS cropping.
-   - photos/leadership-jiaqi-ma.jpg — people page portrait (480px derivative)
-   - photos/leadership-zhiyu-huang.jpg — people page portrait (300px derivative)
-   - photos/leadership-walter-zimmer.jpeg — people page portrait (480px derivative)
-   - photos/leadership-rui-song.jpg — people page portrait (480px derivative)
+   - photos/people-jiaqi-ma.jpg — people page portrait (480px derivative)
+   - photos/people-zhiyu-huang.jpg — people page portrait (300px derivative)
+   - photos/people-walter-zimmer.jpeg — people page portrait (480px derivative)
+   - photos/people-rui-song.jpg — people page portrait (480px derivative)
+   - photos/people-ross-greer.jpg — people page portrait (256px), mirrored from drivex-workshop.github.io/cvpr2026/static/img/ross_greer.jpg
 
 2) Wikimedia Commons (downloaded but currently NOT used on the site)
    - logos/ucla-campus.svg — "The University of California UCLA" wordmark; trademark may apply. File: The_University_of_California_UCLA.svg

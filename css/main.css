@@ -2105,6 +2105,62 @@ a.btn-external:hover::after {
   color: var(--color-text-muted);
 }
 
+.news-item p + p {
+  margin-top: 0.35rem;
+}
+
+.news-item p strong {
+  color: var(--color-text);
+}
+
+.news-item details {
+  margin-top: 0.55rem;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 0.55rem;
+}
+
+.news-item details + details {
+  margin-top: 0.4rem;
+}
+
+.news-item details summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-cyan, var(--color-accent));
+  list-style: none;
+  padding-right: 1.2rem;
+  position: relative;
+  user-select: none;
+}
+
+.news-item details summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-item details summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-weight: 500;
+}
+
+.news-item details[open] summary::after {
+  content: "\2212";
+}
+
+.news-item details p {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
 /* —— Media & logo wall —— */
 .page-media {
   margin: 0;

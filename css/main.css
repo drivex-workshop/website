@@ -2418,7 +2418,7 @@ a.btn-external:hover::after {
 
 .logo-wall {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(160px, 100%), 1fr));
   gap: var(--space-md);
   margin-top: var(--space-md);
 }
@@ -2430,6 +2430,9 @@ a.btn-external:hover::after {
   justify-content: center;
   gap: var(--space-sm);
   padding: var(--space-lg) var(--space-md);
+  min-width: 0;
+  text-align: center;
+  word-break: break-word;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -2439,11 +2442,18 @@ a.btn-external:hover::after {
 }
 
 .logo-card img {
-  max-width: 140px;
-  max-height: 56px;
+  max-width: 100%;
+  max-height: 72px;
   width: auto;
   height: auto;
   object-fit: contain;
+  display: block;
+}
+
+/* Tall / square logos (seals, coats of arms) get more vertical room */
+.logo-card img[src*="usdot"] {
+  max-height: 96px;
+  max-width: min(100%, 96px);
 }
 
 .logo-card figcaption {
@@ -2451,6 +2461,27 @@ a.btn-external:hover::after {
   font-weight: 600;
   color: var(--color-text-muted);
   letter-spacing: 0.04em;
+}
+
+.logo-card__sub {
+  display: block;
+  margin-top: 0.18rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+  opacity: 0.75;
+  text-transform: none;
+}
+
+.logo-card__flag {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-size: 1em;
+  line-height: 1;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla", sans-serif;
+  vertical-align: -0.08em;
+  letter-spacing: 0;
 }
 
 .team-photo-hero {

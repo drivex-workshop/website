@@ -11,6 +11,20 @@ Image and logo sources (download date in repo history)
    - photos/speaker-boris-ivanovic.jpg — seminar speaker portrait (407x399), mirrored from borisivanovic.com/img/profile.jpg
    - projects/cp-x-concept.png — CP-X cooperative perception key concept diagram (1024x687), mirrored from mobility-lab-cpx.webflow.io
 
+3. Partner logos (images/logos/partners/) — official brand assets mirrored locally for display
+   in the DriveX partners page. Sourced from Wikimedia Commons (SVG, public domain or owner-released)
+   unless otherwise noted; trademarks remain the property of their respective owners.
+   - uc-merced.svg            — Wikimedia: File:UC_Merced_logo.svg
+   - uc-riverside.svg         — Wikimedia: File:UC_Riverside_logo.svg
+   - umich.svg                — Wikimedia: File:University_of_Michigan_logo.svg
+   - tum.svg                  — Wikimedia: File:Logo_of_the_Technical_University_of_Munich.svg
+   - cambridge.svg            — cam.ac.uk/themes/custom/fresh/images/interface/cambridge_university2.svg (crest + wordmark, 566x118)
+   - tu-delft.svg             — Wikipedia (en): File:Delft_University_of_Technology_logo.svg
+   - motional.png             — motional.com/themes/custom/motional/images/horizontal-logo.png (158x30)
+   - nvidia.svg               — Wikimedia: File:NVIDIA_logo.svg
+   - usdot.svg                — Wikimedia: File:United_States_Department_of_Transportation_seal.svg
+   - sydney.svg               — Wikipedia (en): File:The_University_of_Sydney_Logo.svg
+
 2) Wikimedia Commons (downloaded but currently NOT used on the site)
    - logos/ucla-campus.svg — "The University of California UCLA" wordmark; trademark may apply. File: The_University_of_California_UCLA.svg
    - logos/nsf.png — National Science Foundation logo; follow NSF identity rules for public use.

@@ -2467,11 +2467,11 @@ a.btn-external:hover::after {
 }
 
 .logo-card img {
-  max-width: min(100%, 220px);
-  max-height: 110px;
-  width: auto;
-  height: auto;
+  width: 100%;
+  max-width: 220px;
+  height: 110px;
   object-fit: contain;
+  object-position: center;
   display: block;
   filter: saturate(0.95);
   transition: filter 0.25s ease;
@@ -2481,10 +2481,10 @@ a.btn-external:hover::after {
   filter: saturate(1.05);
 }
 
-/* Tall / square logos (seals, coats of arms) get a square frame */
+/* Square seal: keep a square frame so the round seal isn't stranded in a wide letterbox */
 .logo-card img[src*="usdot"] {
-  max-height: 130px;
-  max-width: min(100%, 130px);
+  height: 130px;
+  max-width: 130px;
 }
 
 .logo-card figcaption {

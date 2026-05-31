@@ -127,10 +127,11 @@ a:hover {
 }
 
 .header-brand-lockup .brand-logo {
-  height: 68px;
+  height: 40px;
   width: auto;
-  max-height: 68px;
-  max-width: 68px;
+  max-height: 40px;
+  max-width: 200px;
+  object-fit: contain;
 }
 
 .header-brand-lockup .header-lab-logo {
@@ -151,9 +152,9 @@ a:hover {
 
 .brand-logo {
   width: auto;
-  height: auto;
-  max-height: 150px;
-  max-width: 150px;
+  height: 40px;
+  max-height: 40px;
+  max-width: 200px;
   flex-shrink: 0;
   object-fit: contain;
 }
@@ -360,9 +361,9 @@ a:hover {
   }
 
   .header-brand-lockup .brand-logo {
-    height: 48px;
-    max-height: 48px;
-    max-width: 48px;
+    height: 32px;
+    max-height: 32px;
+    max-width: 160px;
   }
 
   .header-brand-lockup .header-lab-lockup {
@@ -685,7 +686,7 @@ a:hover {
 .hero-logo-mark {
   display: block;
   width: auto;
-  max-width: min(300px, 40vw);
+  max-width: min(420px, 60vw);
   height: auto;
   margin: 0 0 var(--space-md);
   opacity: 1;
@@ -2660,9 +2661,10 @@ a.btn-external:hover::after {
   margin-bottom: var(--space-md);
 }
 
-.footer-logo-row img {
-  height: 100px;
+.footer-logo-row > img {
+  height: 32px;
   width: auto;
+  object-fit: contain;
 }
 
 .prose .section-head {

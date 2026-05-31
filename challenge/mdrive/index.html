@@ -42,26 +42,30 @@
   <header class="page-hero">
     <div class="section-inner">
       <p class="subtitle" style="font-size:0.95rem;margin-bottom:var(--space-sm)"><a href="../">DriveX Grand Challenge 2026</a></p>
+      <img src="../../images/captures/mdrive/mdrive-logo.png" alt="MDrive" width="811" height="294" decoding="async" style="max-width:280px;height:auto;margin-bottom:var(--space-md)" />
       <h1>MDrive Track</h1>
-      <p class="subtitle">Cooperative and multimodal perception</p>
+      <p class="subtitle">Benchmarking closed-loop cooperative driving for end-to-end multi-agent systems</p>
     </div>
   </header>
 
   <main>
     <section class="section">
       <div class="section-inner">
-        <article class="ext-program-card" style="max-width:40rem;margin-bottom:var(--space-xl)">
+        <article class="ext-program-card" style="max-width:48rem;margin-bottom:var(--space-xl)">
           <a class="ext-program-card__media" href="https://mdrive-challenge.github.io/" target="_blank" rel="noopener">
-            <img src="../../images/captures/placeholder.svg" width="960" height="540" alt="MDrive challenge preview" loading="lazy" decoding="async" />
+            <img src="../../images/captures/mdrive/mdrive-overview.png" width="2326" height="1530" alt="MDrive system overview — closed-loop cooperative multi-agent driving benchmark" loading="lazy" decoding="async" />
           </a>
           <div class="ext-program-card__body">
             <h3 style="margin:0">Official challenge site</h3>
-            <p class="ext-program-card__meta">Rules, data, and submissions for the MDrive track are maintained on the MDrive challenge website.</p>
+            <p class="ext-program-card__meta">Rules, data, leaderboard, and submission instructions are maintained on the official MDrive challenge website.</p>
             <div class="ext-program-card__actions">
               <a class="btn-external" href="https://mdrive-challenge.github.io/" target="_blank" rel="noopener">Open official challenge site</a>
+              <a class="link-subtle" href="https://huggingface.co/spaces/jiaqima2025/MDriveBench" target="_blank" rel="noopener">Leaderboard ↗</a>
+              <a class="link-subtle" href="https://github.com/ucla-mobility/MDrive" target="_blank" rel="noopener">GitHub ↗</a>
             </div>
           </div>
         </article>
+
         <div class="section-head">
           <p class="section-kicker">Grand Challenge</p>
           <h2>Track overview</h2>
@@ -70,8 +74,40 @@
           This track is part of the DriveX Grand Challenge 2026 within the broader DriveX initiative led by UCLA and developed with partner institutions and collaborators.
         </div>
         <div class="prose">
-          <p>A challenge focused on multimodal driving perception and scene understanding through the integration of multiple sensor modalities.</p>
-          <p>Further details will be posted on this page.</p>
+          <p>The <strong>MDrive Cooperative Driving Challenge</strong> evaluates whether multi-agent coordination and V2X communication can significantly improve autonomous driving safety and efficiency in high-stakes urban scenarios. While traditional models rely on single-vehicle onboard perception, MDrive introduces a closed-loop benchmark where connected agents share sensory data to navigate complex environments.</p>
+          <p>The challenge is built on <strong>MDriveBench</strong>, a multi-agent extension of high-fidelity simulators. Scenarios include occluded intersections, unprotected turns, and emergency yields, providing a robust testbed for cooperative intelligence.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-kicker">Methodology</p>
+          <h2>CoLMDriver pipeline</h2>
+        </div>
+        <figure class="prose-figure">
+          <img src="../../images/captures/mdrive/colmdriver-pipeline.png" alt="CoLMDriver cooperative driving pipeline diagram" loading="lazy" decoding="async" />
+          <figcaption>Cooperative multi-agent perception and planning pipeline used in the MDrive challenge baselines.</figcaption>
+        </figure>
+        <div class="prose">
+          <p>Submissions are evaluated using metrics tailored for closed-loop safety and cooperative efficiency. The benchmark is designed to highlight where cooperative models show significant improvements over single-agent baselines &mdash; particularly in <strong>occluded environments</strong> and <strong>high-density traffic merges</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="section-head">
+          <p class="section-kicker">Scenarios</p>
+          <h2>Multi-agent negotiation</h2>
+        </div>
+        <figure class="prose-figure">
+          <img src="../../images/captures/mdrive/negotiation-example.png" alt="MDrive multi-agent negotiation example scenario" loading="lazy" decoding="async" />
+          <figcaption>Closed-loop negotiation example: connected agents resolve a contested intersection through shared scene understanding.</figcaption>
+        </figure>
+        <div class="prose">
+          <p>For full track rules, dataset access, baselines, and submission deadlines, please refer to the <a href="https://mdrive-challenge.github.io/" target="_blank" rel="noopener">official MDrive challenge site</a>.</p>
           <p><a href="../">← Back to Grand Challenge</a></p>
         </div>
       </div>

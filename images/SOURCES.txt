@@ -25,6 +25,13 @@ Image and logo sources (download date in repo history)
    - usdot.svg                — Wikimedia: File:United_States_Department_of_Transportation_seal.svg
    - sydney.svg               — Wikipedia (en): File:The_University_of_Sydney_Logo.svg
 
+4. MDrive challenge captures (images/captures/mdrive/) — mirrored from the public
+   ucla-mobility/MDrive GitHub repository (main branch) under its repo license.
+   - mdrive-overview.png      — figure/MDrive_overview.png (2326x1530, system overview)
+   - mdrive-logo.png          — figure/MDrive-Logo.png (811x294, project logo)
+   - colmdriver-pipeline.png  — img/colmdriver_pipeline.png (2708x1165, baseline pipeline diagram)
+   - negotiation-example.png  — img/negotiation_example.png (1739x1392, scenario figure)
+
 2) Wikimedia Commons (downloaded but currently NOT used on the site)
    - logos/ucla-campus.svg — "The University of California UCLA" wordmark; trademark may apply. File: The_University_of_California_UCLA.svg
    - logos/nsf.png — National Science Foundation logo; follow NSF identity rules for public use.

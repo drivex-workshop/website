@@ -2418,8 +2418,8 @@ a.btn-external:hover::after {
 
 .logo-wall {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
-  gap: clamp(1rem, 2vw, 1.5rem);
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: clamp(0.5rem, 0.8vw, 0.85rem);
   margin-top: var(--space-lg);
 }
 

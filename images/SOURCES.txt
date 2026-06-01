@@ -24,7 +24,9 @@ Image and logo sources (download date in repo history)
    - nvidia.svg               — Wikimedia: File:NVIDIA_logo.svg
    - usdot.svg                — Wikimedia: File:United_States_Department_of_Transportation_seal.svg
    - sydney.svg               — Wikipedia (en): File:The_University_of_Sydney_Logo.svg
-   - florida.svg              — Wikimedia: File:University_of_Florida_logo.svg
+   - ucf.svg                  — Wikipedia (en): File:University_of_Central_Florida_logo.svg
+   - ncstate.svg              — Wikipedia (en): File:North_Carolina_State_University_logo.svg
+   - tokyo.svg                — Wikipedia (en): File:University_of_Tokyo_logo_(2024).svg
 
 4. MDrive challenge captures (images/captures/mdrive/) — mirrored from the public
    ucla-mobility/MDrive GitHub repository (main branch) under its repo license.
